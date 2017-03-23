@@ -415,6 +415,10 @@ public final class Settings {
          * new version available.
          */
         public static final String UPDATE_VERSION_CHECK_ENABLED = "updater.versioncheck.enabled";
+        /**
+         * The properties key for whether the CMake analyzer is enabled.
+         */
+        public static final String ANALYZER_POM_ENABLED = "analyzer.pom.enabled";
 
         /**
          * private constructor because this is a "utility" class containing
